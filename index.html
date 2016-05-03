@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del Equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--Grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('recursos/imagenes/ssss.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:30px;">Fechas Importantes de Mayo</h1>
+  </div>
+  
+    
+    <div align="center" style="background-image:url(recursos/imagenes/fondo.jpg)">
+     <img src="recursos/imagenes/mayo.png" width="50%" height="50%">
+    </div>
+ 
+  
+  
+ <div data-role="main" class="ui-content">
+   <div>   
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#page1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">1 de Mayo</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 align="center">4 de Mayo</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">5 de Mayo</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">10 de Mayo</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">15 de Mayo</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">20 de Mayo</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2 align="center">23 de Mayo</h2>
+      </a>
+     </li>
+   </ul>
+   </div>
+   </div>
+   
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <h4>Rodrigo Martínez Peña</h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+      </div>
+  </div>
+
+<div data-role="page" id="page1" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">Dia del Trabajo</h1>
+ </div>
+ <div data-role="main" class="ui-content" align="center">
+ <p>
+   <img src="recursos/imagenes/bien.gif" width="50%" height="50%">
+   <div data-role="collapsible" data-theme="b" align="center" data-position="fixed">
+     <h2>Conoce ..</h2>
+     
+    <p style="font-size:16px;"> El Día Internacional de los Trabajadores o Primero de Mayo es la fiesta por antonomasia del movimiento obrero mundial. Es una jornada que se ha utilizado habitualmente para realizar diferentes reivindicaciones sociales y laborales a favor de las clases trabajadoras por parte, fundamentalmente, de los movimientos socialistas, anarquistas y comunistas, entre otros.
+   Desde su establecimiento en la mayoría de países (aunque la consideración de día festivo fue en muchos casos tardía) por acuerdo del Congreso Obrero Socialista de la Segunda Internacional, celebrado en París en 1889, es una jornada de lucha reivindicativa y de homenaje a los Mártires de Chicago. Estos sindicalistas anarquistas fueron ejecutados en Estados Unidos por participar en las jornadas de lucha por la consecución de la jornada laboral de ocho horas, que tuvieron su origen en la huelga iniciada el 1 de mayo de 1886 y su punto álgido tres días más tarde, el 4 de mayo, en la Revuelta de Haymarket. A partir de entonces se convirtió en una jornada reivindicativa de los derechos de los trabajadores en sentido general que es celebrada en mayor o menor medida en todo el mundo.</p>
+   </div>
+ </p>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="page2" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>La Batalla de Atlixco</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <p>
+ <div data-role="collapsible" align="center" data-theme="a">
+   <h2>Conoce mas...</h2>
+   <p style="font-size:16px;">La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+ </div>
+   
+<div align="center"><img  style="border-radius:30px;"src="recursos/imagenes/atlixco.jpg" width="60%" height="60%"></div>
+ </p>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+<div data-role="page" id="page3" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">La Batalla de Puebla</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" align="center" data-theme="a">
+ <h2>Toca este Lugar para conocer sobre esto!!</h2>
+ <p style="font-size:16px;">
+   La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.<div align="center"><img style="border-radius:30px;" src="recursos/imagenes/puebla.png" width="50%" height="50%"></div>
+ </p>
+ </div>
+
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="page4" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">Dia de las Madres</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" align="center" data-theme="a">
+ <h2>Conoce sobre esto..</h2>
+ <p style="font-size:16px;">
+   La celebración del Día de las Madres tiene sus antecedentes en la Grecia antigua en honor de Rhea , conocida como 'la madre de los dioses'. Durante el siglo XIX hubo algunas propuestas para dedicar un día a homenajear a las madres, pero no fue sino hasta 1907 cuando Ana Jarvis, nacida en Filadelfia, Estados Unidos, se reunió con un grupo de amigos y les planteó el reto de trabajar para que se estableciera una fecha para esta celebración. 
+   A partir de ese momento comenzó una campaña para hacer que las autoridades accedieran a tal petición. Pronto se unieron amigos, vecinos y conocidos, quienes a través de folletos y textos en periódicos locales propagaron la idea en su comunidad. En 1908 se celebró la primera ceremonia no oficial para conmemorar a las madres en una iglesia metodista de Grafton, Virginia.El evento tuvo lugar el 10 de mayo del citado año y acudieron 407 mamás acompañadas de sus familias. En la ceremonia, Ana Jarvis regaló a cada madre presente un clavel, la flor favorita de su propia madre, quien había fallecido pocos años antes; desde entonces el clavel es representativo de este día. 
+ </p>
+ </div>
+ 
+ <div align="center" >
+     
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','recursos/imagenes/ssss.jpg',1)"><img src="recursos/imagenes/feliz.jpg" width="50%" height="50%" id="Image13"></a>
+   </div>
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="page5" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">Dia del Maestro</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" align="center" data-theme="a">
+ <h2> Conoce mas... </h2>
+ <p style="font-size:16px;">
+  El Día del maestro es una festividad en la que se conmemora a las personas que hacen de la enseñanza su trabajo habitual, como maestros y profesores.
+
+La fecha de esta celebración varía entre los diferentes paises, si bien la UNESCO sugiere hacerlo el 5 de octubre, práctica que ha sido seguida por numerosas naciones.
+
+En 1943, la Primera Conferencia de Ministros y Directores de Educación de las Repúblicas Americanas, celebrada en Panamá, propuso también una fecha unificada para todo el continente; eligiéndose el 11 de septiembre, aniversario del fallecimiento del estadista y educador argentino Domingo Faustino Sarmiento.1 Dicha fecha ha continuado conmemorándose en la Argentina, pero se ha abandonado en el resto del continente
+<div align="center">
+  <img src="recursos/imagenes/maestro.jpg" width="40%" height="40%">&nbsp;&nbsp;<img style="margin-right:30px" src="recursos/imagenes/maestro2.jpg" width="30%" height="25%">
+  
+</div>
+ </p>
+ </div>
+ 
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="page6" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">Dia del Psicólogo</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" align="center" data-theme="a">
+ <h2>Toca este lugar...</h2>
+ <p style="font-size:16px;">
+   Desde hace 17 años se celebra el Día Nacional del Psicólogo en México, este día tiene su origen dada la relevancia académica que cobró este campo del conocimiento en la Universidad Nacional Autónoma de México (UNAM)
+
+Entre otras razones para establecer este día, se debe a que la UNAM imparte la carrera de Psicología desde 1950, siendo este el primer programa en México, por lo cual se convirtió en una fecha especial para la Psicología.
+
+Finalmente este Día Nacional del Psicólogo en México fue instituido por la Federación Nacional de Colegios y Sociedades y Asociaciones de Psicólogos en México.
+
+Por este motivo te debemos recordar a algunos de los psicólogos más importantes de la historia, personas que construyeron y aportaron grandes conocimientos al campo de la Psicología y que además forjaron sus bases para concretar todo un campo del conocimiento
+ </p>
+ <div data-role="collapsible" data-theme="b" align="center" data-position="fixed">
+     <h2>Imagen..</h2>
+     <img src="recursos/imagenes/psi.png" width="50%" height="50%">
+   </div>
+ </div>
+ 
+ 
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="page7" data-theme="a" style="background-image:url(recursos/imagenes/fondospa.jpg); background-size:cover;">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1 style="font-size:24px;">Dia del Estudiante</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div data-role="collapsible" align="center" data-theme="a">
+ <h2>Abreme!</h2>
+ <p style="font-size:16px;">
+El origen del día del estudiante se remonta al año 1929 cuando los estudiantes de la ahora Universidad Nacional Autónoma de México, se lanzaron a la huelga en favor de la Autonomía Universitaria.
+
+Después de una serie de eventos y protestas que culminaron en una huelga general, los alumnos fueron agredidos brutalmente por la policía federal de caminos (PF) dentro de las instalaciones de la Escuela de Derecho el día 23 de mayo por tal motivo los alumnos de esta escuela reclamaron que ese día fuera recordado como el Día del Estudiante en honor a los agredidos y que la plaza de Santo Domingo en la Ciudad de México fuera llamada Plaza 23 de mayo o del Estudiante.
+<div align="center"><img src="recursos/imagenes/estu.jpg" width="50%" height="50%"></div>
+ </p>
+ </div>
+ 
+  </div>
+  <div data-role="footer" data-position="fixed" align="center">
+    <h4>Rodrigo Martínez Peña</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+ </div>
+</div>
+
+
+</body>
+</html>
